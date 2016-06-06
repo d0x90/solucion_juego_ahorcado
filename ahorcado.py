@@ -41,7 +41,7 @@ for pedazo in arrCadena:
 		miregex= miregex+ ("("+pedazo+")")
 	miregex= miregex+ ("([^"+micadenapararegex+"])")
 	i=i+1
-print miregex
+#print miregex
 
 #procesamiento ( buscar en el diccionario las coincidencias)
 for linea in txt:
