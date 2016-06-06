@@ -36,3 +36,9 @@ for pedazo in arrCadena:
 	miregex= miregex+ ("([^"+micadenapararegex+"])")
 	i=i+1
 print miregex
+
+#procesamiento ( buscar en el diccionario las coincidencias)
+for linea in txt:
+	m = re.search(miregex, linea)
+	if m != None:
+		print m.group(0)
