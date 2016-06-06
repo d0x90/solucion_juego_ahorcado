@@ -10,6 +10,12 @@ import sys
 
 #obteniendo argumento : python ahorcado.py <arg1>
 cadena = sys.argv[1]
+##variables
+miregex = ""
+micadenapararegex=""
+mis_letras =set()
+#diccionario
+txt = open("palabras.txt").readlines()
 
 ### obtener las letras a evitar
 def soloLetras(cadena,micadenapararegex):	
