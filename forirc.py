@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #a  c  e  r  t  a  m  i  e  n  t  _
 import sys
 import re

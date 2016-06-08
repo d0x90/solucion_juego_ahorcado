@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import re
 import sys
 ## REGEX
@@ -46,5 +47,7 @@ for pedazo in arrCadena:
 #procesamiento ( buscar en el diccionario las coincidencias)
 for linea in txt:
 	m = re.search(miregex, linea)
-	if m != None:
-		print m.group(0)
+	if m != None:	
+		if len(m.group(0)) == len(linea)-1:
+			print m.group(0)	
+		#print m.group(0)
