@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #a  c  e  r  t  a  m  i  e  n  t  _
+##adaptado especialmente para cadenas con espacios entre las letras
 import sys
 import re
 import sys
