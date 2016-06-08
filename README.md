@@ -1,5 +1,5 @@
-# Ahorcado Solver
-
+# Solución juego del ahorcado
+ .Falta mejorar el diccionario
 usar:
 ```
 python ahorcado.py <arg>
