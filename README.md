@@ -1,5 +1,5 @@
 # Solución juego del ahorcado
- .Falta mejorar el diccionario
+ .Falta mejorar el diccionario <br>
 usar:
 ```
 python ahorcado.py <arg>
